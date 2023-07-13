@@ -1,5 +1,13 @@
 .button{
-    background-color: pink;
-    border: 2px solid rgb(255, 101, 127);
+    /* background-color: rgb(126, 94, 255);
+    border: 2px solid rgb(101, 183, 255); */
     border-radius: 12px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    
+
+}
+
+.button:hover{
+    background-color: rgb(126, 94, 255);
+    border: 2px solid rgb(101, 183, 255);
 }
