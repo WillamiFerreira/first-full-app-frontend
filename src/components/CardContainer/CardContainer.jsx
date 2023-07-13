@@ -14,7 +14,7 @@ function CardContainer({liftState}){
     useEffect(()=>{
         async function getUsers(){
             try{
-                const response = await axios.get('http://localhost:3000/users')
+                const response = await axios.get('https://api-first-fullstack-app.onrender.com')
                 .then((res) => setUsers(res.data))
                 .catch((error)=>{
                     console.error(error);
